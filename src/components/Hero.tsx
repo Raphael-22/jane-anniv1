@@ -21,7 +21,7 @@ export default function Hero() {
           className="mb-8 w-56 h-72 md:w-72 md:h-96 rounded-t-full rounded-b-full overflow-hidden border-4 border-white/80 shadow-2xl relative"
         >
           <img 
-  src={`${base}hero.JPG`} 
+  src={`${base}hero.jpg`} 
   alt="Jane & Raphael" 
   className="w-full h-full object-cover"
 />
