@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { ChevronDown, Heart } from 'lucide-react';
 
 export default function Hero() {
+  const base = import.meta.env.BASE_URL;
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-champagne/50 via-ivory to-blush/20 px-6">
       {/* Subtle background glow */}
@@ -20,11 +21,10 @@ export default function Hero() {
           className="mb-8 w-56 h-72 md:w-72 md:h-96 rounded-t-full rounded-b-full overflow-hidden border-4 border-white/80 shadow-2xl relative"
         >
           <img 
-            src="https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/1c618e47-4977-440f-9031-6e3e5c94179d.jpg" 
-            alt="Jane & Raphael" 
-            className="w-full h-full object-cover"
-            referrerPolicy="no-referrer"
-          />
+  src={`${base}hero.jpg`} 
+  alt="Jane & Raphael" 
+  className="w-full h-full object-cover"
+/>
           <div className="absolute inset-0 bg-gradient-to-t from-rose/20 to-transparent mix-blend-overlay" />
         </motion.div>
 
