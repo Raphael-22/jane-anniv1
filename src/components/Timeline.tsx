@@ -6,17 +6,17 @@ const chapters = [
   {
     title: "Breakfast at Arz Hotel",
     short: "It started simply. A morning at Arz Hotel, sitting across from each other at breakfast.",
-    full: "Two strangers, unaware of what was about to unfold. The air was crisp, the coffee was warm, and I couldn't help but notice the girl sitting across from me.",
+    full: "Two strangers, unaware of what was about to unfold. The air was crisp, the coffee was warm, and I couldn't help but notice the girl sitting beside me.",
   },
   {
     title: "The School Joke",
-    short: "I didn't know Athénée de Beyrouth. You didn't know JM.",
+    short: "You didn't know JM.I didn't know Athénée de Beyrouth. ",
     full: "We laughed at the disconnect, a small spark of banter that broke the ice. It was the first of many inside jokes we'd share."
   },
   {
     title: "The Disagreement",
     short: "We somehow landed on the topic of Andrew Tate. I took his side, you stood firmly against him.",
-    full: "It was our first real debate, and honestly, I loved your fire. You weren't afraid to speak your mind, and that captivated me."
+    full: "It was our first real debate, and honestly, I loved your fire, and that captivated me."
   },
   {
     title: "Shows & Stories",
@@ -27,16 +27,16 @@ const chapters = [
     title: "The Unasked Question",
     short: "I went back to the room to check out. Panic set in.",
     full: "I wanted to ask for your number, terrified I might never see you again, but I was simply too scared to ask. I almost let you slip away.",
-    image: "https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/4741634b-4394-4054-912f-5309d949210b.jpg"
+   
   },
   {
     title: "Crossing Paths Again",
-    short: "Fate, or just good timing, brought us back together later that day.",
+    short: "Fate, and luck brought us back together later to choose what we were going to do that day, all i cared about that whatever we did we did with you Jane.",
     full: "The relief I felt seeing you again was something I couldn't hide. It felt like a second chance I didn't deserve but desperately wanted."
   },
   {
     title: "The ATV Ride",
-    short: "We went ATV riding, but in a funny twist of fate, you rode with my brother, and I rode with your sister.",
+    short: "We went ATV riding, but in a funny twist of fate, you rode with Angelo, and I rode with Kate.",
     full: "We were close, but still just out of reach. I spent half the ride trying to catch glimpses of you."
   },
   {
@@ -47,14 +47,13 @@ const chapters = [
   {
     title: "By the Chimney",
     short: "We hung out near the chimney area.",
-    full: "The warmth of the fire matched the quiet comfort that was starting to build between us. It felt natural, like we'd known each other for years.",
-    image: "https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/6575971a-2003-491b-8f35-43098319f36f.jpg"
+    full: "There started some playful talk and i made fun of you a lot. It felt natural, like we'd known each other for years. It also helped break the ice and that is all I wanted",
+   
   },
   {
     title: "The Army Place & The Call",
-    short: "At the army place, everyone was making fun of me. I pretended to be angry, a silly joke.",
-    full: "But the real punchline? You taking my number from my brother and calling me. We laughed, we talked about the sun on the road, and promised to meet again. And we did.",
-    image: "https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/8537609a-b445-4229-8758-01d754f9a567.jpg"
+    short: "At the army place, you were making fun of me. I pretended to be angry, a silly joke.",
+    full: "But the real punchline? You taking my number from my brother and calling me. We laughed when i looked at you poking my head from the door and there I got what i wanted.",
   }
 ];
 
