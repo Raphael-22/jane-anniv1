@@ -2,15 +2,17 @@ import { motion } from 'motion/react';
 import { useState } from 'react';
 import { X, Heart } from 'lucide-react';
 
+const base = import.meta.env.BASE_URL;
+
 const photos = [
-  { id: 1, src: "https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/86433c04-3b70-43a9-a982-f54e1957c5d9.jpg", alt: "Under the lanterns, just us", span: "col-span-1 row-span-2" },
-  { id: 2, src: "https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/60451e51-404c-4749-8041-987d377b055d.jpg", alt: "Carried away by you", span: "col-span-1 row-span-1" },
-  { id: 3, src: "https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/621b1a45-b461-42cb-9c09-0026e7a2709e.jpg", alt: "Lost in the snow, found in you", span: "col-span-1 row-span-1" },
-  { id: 4, src: "https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/307452d3-c408-4d51-a20c-783517565b90.jpg", alt: "The way you look at me", span: "col-span-2 row-span-1" },
-  { id: 5, src: "https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/d3782531-1554-4161-9f93-1811568e6457.jpg", alt: "Sunsets and smiles", span: "col-span-1 row-span-2" },
-  { id: 6, src: "https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/07248352-736f-4007-9571-70e28d8b184f.jpg", alt: "Every little moment", span: "col-span-1 row-span-1" },
-  { id: 7, src: "https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/61828f4f-409c-4819-a9a3-5339c940b54e.jpg", alt: "Matching hearts", span: "col-span-1 row-span-1" },
-  { id: 8, src: "https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/c2349e5d-7521-460b-8015-8120a16b9b3e.jpg", alt: "My favorite place is with you", span: "col-span-2 row-span-1" },
+  { id: 1, src: `${base}p1.jpg`, alt: "Under the lanterns, just us", span: "col-span-1 row-span-2" },
+  { id: 2, src: `${base}p2.jpg`, alt: "Carried away by you", span: "col-span-1 row-span-1" },
+  { id: 3, src: `${base}p3.jpg`, alt: "Lost in the snow, found in you", span: "col-span-1 row-span-1" },
+  { id: 4, src: `${base}p4.jpg`, alt: "The way you look at me", span: "col-span-2 row-span-1" },
+  { id: 5, src: `${base}p5.jpg`, alt: "Sunsets and smiles", span: "col-span-1 row-span-2" },
+  { id: 6, src: `${base}p6.jpg`, alt: "Every little moment", span: "col-span-1 row-span-1" },
+  { id: 7, src: `${base}p7.jpg`, alt: "Matching hearts", span: "col-span-1 row-span-1" },
+  { id: 8, src: `${base}p8.jpg`, alt: "My favorite place is with you", span: "col-span-2 row-span-1" },
 ];
 
 export default function Gallery() {
@@ -41,7 +43,6 @@ export default function Gallery() {
                 src={photo.src}
                 alt={photo.alt}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-rose/60 via-charcoal/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
                 <p className="text-white font-accent text-2xl md:text-3xl translate-y-4 group-hover:translate-y-0 transition-transform duration-500 drop-shadow-md">
@@ -53,7 +54,6 @@ export default function Gallery() {
         </div>
       </div>
 
-      {/* Lightbox */}
       {selectedImage && (
         <motion.div
           initial={{ opacity: 0 }}
@@ -62,19 +62,21 @@ export default function Gallery() {
           className="fixed inset-0 z-50 flex items-center justify-center bg-charcoal/95 p-6 backdrop-blur-md"
           onClick={() => setSelectedImage(null)}
         >
-          <button 
+          <button
             className="absolute top-8 right-8 text-ivory/50 hover:text-rose transition-colors"
             onClick={() => setSelectedImage(null)}
           >
             <X size={32} strokeWidth={1.5} />
           </button>
-          
-          <div className="relative max-w-5xl max-h-[90vh] w-full flex flex-col items-center" onClick={e => e.stopPropagation()}>
+
+          <div
+            className="relative max-w-5xl max-h-[90vh] w-full flex flex-col items-center"
+            onClick={e => e.stopPropagation()}
+          >
             <img
               src={selectedImage.src}
               alt={selectedImage.alt}
               className="max-w-full max-h-[80vh] object-contain rounded-2xl shadow-2xl border-4 border-white/10"
-              referrerPolicy="no-referrer"
             />
             <p className="text-rose/90 font-accent text-4xl mt-8 text-center drop-shadow-lg">
               {selectedImage.alt}
