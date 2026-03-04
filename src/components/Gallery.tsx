@@ -5,12 +5,12 @@ import { X, Heart } from 'lucide-react';
 const base = import.meta.env.BASE_URL;
 
 const photos = [
-  { id: 1, src: `${base}p1.jpg`, alt: "Under the lanterns, just us", span: "col-span-1 row-span-2" },
-  { id: 2, src: `${base}p2.jpg`, alt: "Carried away by you", span: "col-span-1 row-span-1" },
-  { id: 3, src: `${base}p3.jpg`, alt: "Lost in the snow, found in you", span: "col-span-1 row-span-1" },
-  { id: 4, src: `${base}p4.jpg`, alt: "The way you look at me", span: "col-span-2 row-span-1" },
-  { id: 5, src: `${base}p5.jpg`, alt: "Sunsets and smiles", span: "col-span-1 row-span-2" },
-  { id: 6, src: `${base}p6.jpg`, alt: "Every little moment", span: "col-span-1 row-span-1" },
+  { id: 1, src: `${base}p1.JPG`, alt: "Under the lanterns, just us", span: "col-span-1 row-span-2" },
+  { id: 2, src: `${base}p2.JPG`, alt: "Carried away by you", span: "col-span-1 row-span-1" },
+  { id: 3, src: `${base}p3.JPG`, alt: "Lost in the snow, found in you", span: "col-span-1 row-span-1" },
+  { id: 4, src: `${base}p4.JPG`, alt: "The way you look at me", span: "col-span-2 row-span-1" },
+  { id: 5, src: `${base}p5.JPG`, alt: "Sunsets and smiles", span: "col-span-1 row-span-2" },
+  { id: 6, src: `${base}p6.JPG`, alt: "Every little moment", span: "col-span-1 row-span-1" },
   { id: 7, src: `${base}p7.jpg`, alt: "Matching hearts", span: "col-span-1 row-span-1" },
   { id: 8, src: `${base}p8.jpg`, alt: "My favorite place is with you", span: "col-span-2 row-span-1" },
 ];
