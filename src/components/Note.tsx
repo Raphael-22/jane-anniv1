@@ -19,13 +19,13 @@ export default function Note() {
               Jane,
             </h2>
             <p>
-              If you had told me that morning at Arz Hotel that the girl sitting across from me at breakfast would become my entire world, I probably wouldn’t have believed it. I still laugh thinking about how I didn’t know Athénée de Beyrouth, and you had no idea what JM was. We were just two strangers figuring each other out, debating Andrew Tate, and talking about the shows we watch.
+              If you had told me that morning at Arz Hotel that the girl sitting across from me at breakfast would become my entire world, noway kenet sada2et. Bs seeing you, your eyes, laugh, smile, the way you talked Jane eerefet you were something special. We were just two strangers figuring each other out, eemelna eye contact and it changed a lot, a lot. Your eyes just put me under a spell that rocked my whole world.
             </p>
             <p>
-              When I went back to the room to check out, I realized I was terrified. Terrified that I might leave without your number, that our story would end before it even began. I was simply too scared to ask. But life has a funny way of working out. From the ATV ride where you ended up with my brother and I with your sister, to the fake anger joke at the army place... every little moment was pulling us together.
+              When I went back to the room to check out, I realized I was terrified. Terrified that I might leave without your number, that our story would end before it even began.Dallet ne2 aa ahle ano yala ha nchufon w ahle as usual roue roue. I was simply too scared to ask. But life has a funny way of working out. Rehna atv w also i was too scared to ask you to come with me or to say that i want you to come maae w i wish you had bs finally it all worked out, every little moment was pulling us together.
             </p>
             <p>
-              When my phone rang and it was you—having taken my number from my brother—I knew something had shifted. We talked about the sun on the drive back, and agreed to meet again someday.
+              When my phone rang and it was you—having taken my number from my brother—I knew something had shifted i felt how lucky I was i felt like noway, this is the girl I want.Fallayna w my phone bayan ur msg we talked about the sun on the drive back w kif badna nchuf baaed bala l ahel, and agreed to meet again after your camp that felt like years.
             </p>
             <p className="font-medium text-rose/90 pt-6 font-accent text-3xl">
               'Someday' became everything. This is the story of how it started.
