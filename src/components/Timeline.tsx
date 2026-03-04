@@ -7,7 +7,6 @@ const chapters = [
     title: "Breakfast at Arz Hotel",
     short: "It started simply. A morning at Arz Hotel, sitting across from each other at breakfast.",
     full: "Two strangers, unaware of what was about to unfold. The air was crisp, the coffee was warm, and I couldn't help but notice the girl sitting across from me.",
-    image: "https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/7d36a83d-365d-458f-889d-7b243b9e4a8a.jpg"
   },
   {
     title: "The School Joke",
