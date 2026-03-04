@@ -12,7 +12,7 @@ const photos = [
   { id: 5, src: `${base}p5.JPG`, alt: "Sunsets and smiles", span: "col-span-1 row-span-2" },
   { id: 6, src: `${base}p6.JPG`, alt: "Every little moment", span: "col-span-1 row-span-1" },
   { id: 7, src: `${base}p1.JPG`, alt: "Matching hearts", span: "col-span-1 row-span-1" },
-  { id: 8, src: `${base}p7.jpg`, alt: "My favorite place is with you", span: "col-span-2 row-span-1" },
+  { id: 8, src: `${base}p12.jpg`, alt: "My favorite place is with you", span: "col-span-2 row-span-1" },
 ];
 
 export default function Gallery() {
