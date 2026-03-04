@@ -3,11 +3,11 @@ import { useState, useEffect } from 'react';
 import { calculateTimeSince } from '../utils/time';
 
 export default function TimeCounter() {
-  const [time, setTime] = useState(calculateTimeSince('2022-09-04T00:00:00'));
+  const [time, setTime] = useState(calculateTimeSince('2022-09-04T09:00:00'));
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setTime(calculateTimeSince('2022-09-04T00:00:00'));
+      setTime(calculateTimeSince('2022-09-04T09:00:00'));
     }, 1000);
     return () => clearInterval(timer);
   }, []);
