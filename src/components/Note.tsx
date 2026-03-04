@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { Heart } from 'lucide-react';
 
 export default function Note() {
+  const base = import.meta.env.BASE_URL;
   return (
     <section id="note" className="py-32 md:py-48 px-6 bg-ivory relative overflow-hidden">
       <div className="max-w-4xl mx-auto relative z-10">
@@ -37,11 +38,10 @@ export default function Note() {
           <div className="md:w-1/2 w-full">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-8 border-white rotate-3 hover:rotate-0 transition-transform duration-500">
               <img 
-                src="https://storage.googleapis.com/aistudio-janus-prod-appspot-com/user_content/images/8537609a-b445-4229-8758-01d754f9a567.jpg" 
-                alt="Holding hands" 
-                className="w-full h-auto object-cover"
-                referrerPolicy="no-referrer"
-              />
+  src={`${base}p7.jpg`} 
+  alt="Holding hands" 
+  className="w-full h-auto object-cover"
+/>
               <div className="absolute inset-0 bg-rose/10 mix-blend-overlay pointer-events-none" />
             </div>
           </div>
